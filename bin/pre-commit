@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+
+export MARKDOWN_FORMAT_DIFF_FILTER="A"  # just format staged files
+make format
